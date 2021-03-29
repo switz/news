@@ -8,8 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "interweave": "^12.7.1",
+    "interweave-autolink": "^4.4.1",
     "next": "10.0.9",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-query": "^3.13.0",
+    "styled-components": "^5.2.1",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@switz/eslint-config": "^6.2.8",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint_d": "^10.0.4",
+    "prettier": "^2.2.1"
   }
 }

@@ -1,0 +1,6 @@
+module.exports = {
+  extends: [
+    '@switz/eslint-config/react',
+    // '@switz/eslint-config/typescript',
+  ],
+};
