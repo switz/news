@@ -26,7 +26,7 @@ export default function Home() {
           <Box key={news.story} width={320}>
             <h3>
               <Interweave
-                content={news.story.replace('href="./', 'href="https://en.wikipedia.org/wiki/')}
+                content={news.story.replace(/href="\.\//g, 'href="https://en.wikipedia.org/wiki/')}
                 matchers={[new UrlMatcher('url')]}
               />
             </h3>
